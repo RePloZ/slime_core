@@ -1,0 +1,33 @@
+function gl_pointyhex_shape_create_fatrectangle(argument0, argument1) {
+	/**
+	    Creates a new fat rectangle (shape) in pointy hex coordinates.
+    
+	    @param width The width of the rectangle in grid coordinates
+	    @param height The height of the rectangle in grid coordinates.
+    
+	    @returns A new shape.
+    
+	    @since 1.0
+	*/
+	var width = argument0;
+	var height = argument1;
+
+	var h1 = gl_halfplane_create(gl_vector_create(0, 0), gl_vector_create(0, 1));
+	var h2 = gl_halfplane_create(gl_vector_create(0, height - 1), gl_vector_create(0, -1));
+
+	var h3 = gl_halfplane_create(gl_vector_create(-1, 1), gl_vector_create(2, 1));
+	var h4 = gl_halfplane_create(gl_vector_create(width-1, 1), gl_vector_create(-2, -1));
+
+
+	var polygon = ds_list_create();
+
+	ds_list_add(polygon, h1, h2, h3, h4);
+
+	var shape = ds_list_create();
+
+	ds_list_add(shape, polygon);
+
+	return shape;
+
+
+}
