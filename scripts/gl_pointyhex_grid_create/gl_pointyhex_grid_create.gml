@@ -1,27 +1,19 @@
-function gl_pointyhex_grid_create(argument0, argument1, argument2) {
-	/**
-	    Creates a new pointy hex grid in a specified shape and size.
+/**
+	@desc Creates a new pointy hex grid in a specified shape and size.
     
-	    @youmustdestroy gl_grid_destroy
+	@youmustdestroy gl_grid_destroy
     
-	    @param shape_label A string that represents the shape of the grid. 
-	        The posibilities are "hexagon", "fatrectangle", "thinrectangle", 
-	        and "parallelogram"
+	@param shape_label A string that represents the shape of the grid. The posibilities are "hexagon", "fatrectangle", "thinrectangle", and "parallelogram"
     
-	    @param size1 For most shapes, this denotes the width. For the hexagon, 
-	        it denotes the side length.
-    
-	    @param size2 For most figures, this denotes the height. For the hexagon, 
-	        it is ignored.
-        
-	    @returns A new grid.
-    
-	    @since 1.0
-	*/
-	var shape_label = argument0;
-	var size1 = argument1;
-	var size2 = argument2;
+	@param size1 For most shapes, this denotes the width. For the hexagon, it denotes the side length.
 
+	@param size2 For most figures, this denotes the height. For the hexagon, it is ignored.
+
+	@returns A new grid.
+
+	@since 1.0
+*/
+function gl_pointyhex_grid_create(shape_label, size1, size2 = 0) {
 	var width;
 	var height;
 	var bottom_left;

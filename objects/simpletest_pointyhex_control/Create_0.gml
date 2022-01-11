@@ -5,7 +5,7 @@ var cell_prefab = pointyhex_cell;
 var cell_dimensions = gl_sprite_get_size(object_get_sprite(cell_prefab));
 var room_rect = gl_room_get_extent();
 
-grid = gl_pointyhex_grid_create("hexagon", 10, 7);
+grid = gl_pointyhex_grid_create("hexagon", 5);
 map = gl_pointyhex_map_create(cell_dimensions);
 
 gl_map_scale(map, 1.1);
@@ -19,8 +19,7 @@ while(gl_iter_hasnext(iter))
     var world_point = gl_map_grid2world(map, grid_point);
     var cell = gl_instance_create(world_point, cell_prefab);
 
-    cell.name = gl_vector2str(grid_point);    
-    //cell.image_blend = get_point_axis_color(grid_point, true);//global.gl_colors[gl_get_color(grid_point, 8, 1, 1)];
+    cell.name = gl_vector2str(grid_point);
 	
 	gl_grid_set(grid, grid_point, cell);
 }

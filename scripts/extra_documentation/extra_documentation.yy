@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Lib",
-    "path": "folders/Scripts/Lib.yy",
+    "path": "folders/Scripts/Grids/Lib.yy",
   },
   "resourceVersion": "1.0",
   "name": "extra_documentation",

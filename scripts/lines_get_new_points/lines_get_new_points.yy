@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Lines",
-    "path": "folders/Scripts/Examples/Lines.yy",
+    "path": "folders/Scripts/Grids/Examples/Lines.yy",
   },
   "resourceVersion": "1.0",
   "name": "lines_get_new_points",

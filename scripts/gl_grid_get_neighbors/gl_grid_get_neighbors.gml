@@ -1,4 +1,4 @@
-function gl_grid_get_neighbors(argument0, argument1) {
+function gl_grid_get_neighbors(grid, point) {
 	/**
 	    Get the neighbors in the grid for the given point.
     
@@ -9,9 +9,6 @@ function gl_grid_get_neighbors(argument0, argument1) {
     
 	    @since 1.0
 	*/
-
-	var grid = argument0;
-	var point = argument1;
 
 	var i;
 

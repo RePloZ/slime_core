@@ -1,8 +1,4 @@
 {
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -20,16 +16,20 @@
   "For3D": false,
   "width": 188,
   "height": 216,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9bb5f57d-e5f1-455d-86d0-76eb3404817f","path":"sprites/pointyhex_sprite/pointyhex_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9bb5f57d-e5f1-455d-86d0-76eb3404817f","path":"sprites/pointyhex_sprite/pointyhex_sprite.yy",},"LayerId":{"name":"8f006bee-0f6a-4f3a-911d-8f9c47ff4932","path":"sprites/pointyhex_sprite/pointyhex_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"pointyhex_sprite","path":"sprites/pointyhex_sprite/pointyhex_sprite.yy",},"resourceVersion":"1.0","name":"9bb5f57d-e5f1-455d-86d0-76eb3404817f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9bb5f57d-e5f1-455d-86d0-76eb3404817f","path":"sprites/pointyhex_sprite1/pointyhex_sprite1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9bb5f57d-e5f1-455d-86d0-76eb3404817f","path":"sprites/pointyhex_sprite1/pointyhex_sprite1.yy",},"LayerId":{"name":"8f006bee-0f6a-4f3a-911d-8f9c47ff4932","path":"sprites/pointyhex_sprite1/pointyhex_sprite1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"pointyhex_sprite1","path":"sprites/pointyhex_sprite1/pointyhex_sprite1.yy",},"resourceVersion":"1.0","name":"9bb5f57d-e5f1-455d-86d0-76eb3404817f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"pointyhex_sprite","path":"sprites/pointyhex_sprite/pointyhex_sprite.yy",},
+    "spriteId": {"name":"pointyhex_sprite1","path":"sprites/pointyhex_sprite1/pointyhex_sprite1.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7bee9660-1f2b-4295-b253-1c7ce7ae515c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9bb5f57d-e5f1-455d-86d0-76eb3404817f","path":"sprites/pointyhex_sprite/pointyhex_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d935e0b0-905b-421c-ac2c-6eb2f2da4b52","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9bb5f57d-e5f1-455d-86d0-76eb3404817f","path":"sprites/pointyhex_sprite1/pointyhex_sprite1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 108,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"pointyhex_sprite","path":"sprites/pointyhex_sprite/pointyhex_sprite.yy",},
+    "parent": {"name":"pointyhex_sprite1","path":"sprites/pointyhex_sprite1/pointyhex_sprite1.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "pointyhex_sprite1",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/SimpleTiles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "pointyhex_sprite",
+  "name": "pointyhex_sprite1",
   "tags": [],
   "resourceType": "GMSprite",
 }

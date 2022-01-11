@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "PathFinding2",
-    "path": "folders/Scripts/Examples/PathFinding2.yy",
+    "path": "folders/Scripts/Grids/Examples/PathFinding2.yy",
   },
   "resourceVersion": "1.0",
   "name": "pathfinding_onmiddleclick2",

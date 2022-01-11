@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Shapes",
-    "path": "folders/Scripts/Lib/Grids/Pointyhex/Shapes.yy",
+    "path": "folders/Scripts/Grids/Lib/Grids/Pointyhex/Shapes.yy",
   },
   "resourceVersion": "1.0",
   "name": "gl_pointyhex_shape_create_fatrectangle",

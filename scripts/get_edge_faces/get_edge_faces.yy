@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Maze",
-    "path": "folders/Scripts/Examples/Maze.yy",
+    "path": "folders/Scripts/Grids/Examples/Maze.yy",
   },
   "resourceVersion": "1.0",
   "name": "get_edge_faces",

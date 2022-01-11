@@ -3,7 +3,7 @@
   "isCompatibility": true,
   "parent": {
     "name": "action",
-    "path": "folders/Scripts/compatibility/action.yy",
+    "path": "folders/Scripts/Grids/compatibility/action.yy",
   },
   "resourceVersion": "1.0",
   "name": "action_if_variable",

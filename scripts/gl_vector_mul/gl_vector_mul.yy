@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Math",
-    "path": "folders/Scripts/Lib/Math.yy",
+    "path": "folders/Scripts/Grids/Lib/Math.yy",
   },
   "resourceVersion": "1.0",
   "name": "gl_vector_mul",

@@ -20,7 +20,8 @@ function gl_grid_connection_index(argument0, argument1) {
 	var point = argument1;
 
 	var cell = gl_grid_get(grid, point);
-
+	show_debug_message(cell)
+	
 	if(cell == noone)
 	{
 	    return -1;
